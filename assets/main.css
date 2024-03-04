@@ -10,6 +10,9 @@
 html {
 	-webkit-text-size-adjust: 100%;
 	font-family: 'Roboto Mono';
+	max-width: 40rem;
+	margin-left: auto;
+	margin-right: auto;
     font-weight: normal;
     font-style: normal;
     font-size:1.1em;
@@ -19,17 +22,14 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
+	background: ghostwhite;
 }
 
 body {
-	max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
 	padding-top: 1.0em;
 	padding-left: 2.0em;
 	padding-right: 2.0em;
 	padding-bottom: 1.0em;
-	background: ghostwhite;
 }
 
 a {
@@ -77,10 +77,6 @@ a {
 
 
 @media (min-width: 640px) {
-	body {
-		max-width: 640px;
-	}
-
 	.summary {
 		display: flex;
 		flex-direction: row;

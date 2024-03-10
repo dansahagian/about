@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+scp index.html dasa@dasa:/opt/dasa.dev
+scp assets/main.css dasa@dasa:/opt/dasa.dev/assets/main.css

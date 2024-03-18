@@ -33,7 +33,7 @@ body {
 }
 
 a {
-	color: #0a68af;
+	color: #095b98;
 	text-decoration: underline;
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .headshot img {
-	max-width: 12em;
+	max-width: 10em;
 	display: inline-block;
 	border-radius: 9999px;
 }
@@ -76,11 +76,7 @@ a {
 }
 
 .email {
-	padding-top: 1.0em;
-}
-
-.email a {
-	text-decoration: none;
+	padding-top: .50em;
 }
 
 @media (min-width: 640px) {
@@ -97,11 +93,11 @@ a {
 
 	.headshot {
 		flex-basis: 50%;
-		padding-top: 0em;
+		padding-top: 1.0em;
 	}
 
 	.headshot img {
-		max-width: 15em;
+		max-width: 12em;
 	}
 
 	.links a {

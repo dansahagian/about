@@ -43,7 +43,7 @@ a {
 }
 
 .headshot {
-	padding-top: 1.0em;
+	padding-top: 1.5em;
 }
 
 .headshot img {
@@ -75,10 +75,6 @@ a {
 	padding-top: 1.0em;
 }
 
-.email {
-	padding-top: .50em;
-}
-
 @media (min-width: 640px) {
 	.summary {
 		display: flex;
@@ -93,7 +89,7 @@ a {
 
 	.headshot {
 		flex-basis: 50%;
-		padding-top: 1.0em;
+		padding-top: .75em;
 	}
 
 	.headshot img {
